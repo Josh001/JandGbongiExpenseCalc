@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - expensesdatabase@localhost" uuid="340f495b-4a1f-46f5-acbf-65b8e089803b">
+    <database-info product="MySQL" version="5.5.32" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <schema name="" catalog="expensesdatabase"/>
+    <table name="angular_expenses" schema="" catalog="expensesdatabase" type="TABLE">
+      <column name="expenseName" sqlType="VARCHAR" precision="100" scale="0" nullable="false" jdbcType="12"/>
+      <column name="expenseInfo" sqlType="VARCHAR" precision="400" scale="0" nullable="false" jdbcType="12"/>
+      <column name="amount" sqlType="DECIMAL" precision="10" scale="0" nullable="false" jdbcType="3"/>
+      <column name="status" sqlType="VARCHAR" precision="10" scale="0" nullable="false" jdbcType="12"/>
+      <column name="expenseId" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <primary-key name="PRIMARY" columns="expenseId"/>
+    </table>
+  </data-source>
+</component>
